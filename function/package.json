@@ -1,0 +1,25 @@
+{
+  "name": "mcfeely",
+  "version": "0.0.1",
+  "description": "email notification service",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava test/*_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/broadinstitute/mcfeely.git"
+  },
+  "author": "thibault@broadinstitute.org",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/broadinstitute/mcfeely/issues"
+  },
+  "homepage": "https://github.com/broadinstitute/mcfeely#readme",
+  "devDependencies": {
+    "ava": "^1.0.1"
+  },
+  "dependencies": {
+    "sendgrid": "^5.2.3"
+  }
+}
